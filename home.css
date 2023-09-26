@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: auto;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation {
+    background: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    padding: 0.94rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation ul li a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 1.25rem;
+}
+
+.navigation ul li:first-child {
+    margin-right: auto;
+    margin-left: 1.25rem;
+}
+
+.nav-logo {
+    width: 6.5rem;
+    height: 3.43863rem;
+    flex-shrink: 0;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-btn a {
+    border-radius: 0.625rem;
+    background: #F40000;
+    text-align: center;
+    align-items: center;
+    padding: 0.55rem 1rem;
+}
+
+.about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.about h1 {
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about p {
+    width: 84.14%;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.need-to-know {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20.625rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(20.625rem, 1fr));
+}
+
+
+.stats-display {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.stat {
+    background-color: #FF8585;
+    border-radius: 0.8rem;
+    display: flex;
+    width: 7.5rem;
+    height: 7.5rem;
+    min-width: 5.625rem;
+    min-height: 5.625rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.stat-info {
+    display: flex;
+    width: 20.625rem;
+    flex-wrap: wrap;
+}
+
+.stat-info p {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    width: 96.97%;
+}
+
+.about h6 {
+    margin-top: 3.13rem;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.upcoming-events {
+    margin-bottom: 2.5rem;
+}
+
+.upcoming-events h1 {
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.events-holder {
+    background: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /*grid-template-columns: repeat(auto-fit, minmax(20.625rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(20.625rem, 1fr));*/
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.event-image {
+    width: 15.625rem;
+    height: 15.625rem;
+    background-color: #FF8585;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.event-name {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25rem;
+}
+
+.event-location {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.event-date {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
