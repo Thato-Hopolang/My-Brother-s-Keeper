@@ -141,12 +141,6 @@ li {
     line-height: normal;
 }
 
-.stat-info {
-    display: flex;
-    width: 20.625rem;
-    flex-wrap: wrap;
-}
-
 .stat-info p {
     color: #000;
     font-family: Inter;
